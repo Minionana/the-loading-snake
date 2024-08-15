@@ -1,0 +1,40 @@
+body{
+    background-color: ivory;
+}
+
+#gameContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 5px;
+}
+
+#gameBoard{
+    border: 8px groove peachpuff;
+    border-radius: 12px;
+    height: 250px;
+    width: 250px;
+}
+
+#scoreText{
+    width: 250px;
+    border: 8px groove peachpuff;
+    border-radius: 12px;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 2em;
+    color: sandybrown;
+    background-color: linen;
+    text-align: center;
+}
+
+#resetBtn{
+    width: 266px;
+    border: 8px groove peachpuff;
+    border-radius: 12px;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 2em;
+    color: sandybrown;
+    background-color: linen;
+}
